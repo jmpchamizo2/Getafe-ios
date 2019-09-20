@@ -9,19 +9,27 @@
 import Foundation
 
 
-class Subject {
+class Subject : CustomStringConvertible {
+
+    
     var name: String?
-    var teachers: [Teacher]?
-    var students: [Student]?
+    var teachers: [Teacher] = []
+    var students: [Student] = []
     var numTeachers: Int {
-        return self.teachers?.count ?? 0
-    }
+        return self.teachers.count
+    }   
     
     var numStudents: Int {
-        return self.students?.count ?? 0
+        return self.students.count
     }
     
-    convenience init(name: String, teachers: [Teacher]? = nil, students: [Student]? = nil ) {
+    
+    var description: String {
+        return "Teacher data: \(String(describing: name))"
+    }
+    
+
+    convenience init(name: String, teachers: [Teacher] = [], students: [Student] = []) {
         self.init()
         
         self.name = name

@@ -20,7 +20,7 @@ enum TeacherType: String {
         case .extern:
             return "Externo"
             
-        //Por si acaso se añaden más casos más adelante, de esa manera no falle todo el proyecto
+        //Por si acaso se añaden más casos más adelante, de esa manera no falla todo el proyecto
         //@unknown default:
         //    return ""
         }

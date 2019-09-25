@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D982C5BF233BB14600605CB7 /* StudentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982C5BE233BB14600605CB7 /* StudentsViewController.swift */; };
+		D982C5C1233BD5DC00605CB7 /* StudentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D982C5C0233BD5DC00605CB7 /* StudentViewCell.swift */; };
 		D993D6292333FF76006F23A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D993D6282333FF76006F23A1 /* AppDelegate.swift */; };
 		D993D62B2333FF76006F23A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D993D62A2333FF76006F23A1 /* ViewController.swift */; };
 		D993D62E2333FF76006F23A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D993D62C2333FF76006F23A1 /* Main.storyboard */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D982C5BE233BB14600605CB7 /* StudentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsViewController.swift; sourceTree = "<group>"; };
+		D982C5C0233BD5DC00605CB7 /* StudentViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentViewCell.swift; sourceTree = "<group>"; };
 		D993D6252333FF76006F23A1 /* CursoIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CursoIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D993D6282333FF76006F23A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D993D62A2333FF76006F23A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,7 +130,9 @@
 		D9ECE55523352BFB001996C3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D982C5C0233BD5DC00605CB7 /* StudentViewCell.swift */,
 				D993D62A2333FF76006F23A1 /* ViewController.swift */,
+				D982C5BE233BB14600605CB7 /* StudentsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -231,6 +237,8 @@
 				D993D62B2333FF76006F23A1 /* ViewController.swift in Sources */,
 				D9AC05D5233915AC00DB7913 /* DefaultData.swift in Sources */,
 				D9ECE55923353530001996C3 /* Student.swift in Sources */,
+				D982C5C1233BD5DC00605CB7 /* StudentViewCell.swift in Sources */,
+				D982C5BF233BB14600605CB7 /* StudentsViewController.swift in Sources */,
 				D993D6292333FF76006F23A1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

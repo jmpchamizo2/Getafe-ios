@@ -8,7 +8,8 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+//Cambiamos el padre a UITabBarController, ya que queremos que controlle el tab bar
+class ViewController: UITabBarController {
     
  
     override func viewDidLoad() {

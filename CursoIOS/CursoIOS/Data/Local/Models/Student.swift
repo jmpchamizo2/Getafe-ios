@@ -13,18 +13,20 @@ class Student: CustomStringConvertible {
     var name: String?
     var email: String?
     var birthDate: Date?
+    var avatar: String?
     
     var description: String {
         return "Student data: \(String(describing: name)) \(String(describing: email))"
     }
     
     //Cuando igualamos a nil hacemos que el parámetro sea opcional, ahora tenemos dos parámetros opcionales
-    convenience init(name: String, email: String? = nil, birthDate: Date? = nil) {
+    convenience init(name: String, email: String? = nil, birthDate: Date? = nil, avatar: String? = nil) {
         self.init()
         
         self.name = name
         self.email = email
         self.birthDate = birthDate
+        self.avatar = avatar
         
     }
     

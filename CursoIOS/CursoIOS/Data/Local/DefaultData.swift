@@ -2,13 +2,13 @@
 import Foundation
 
 
-let defaultStudents = [Student(name: "Paco",    email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1984, month: 7))),
-                       Student(name: "Mireya",  email: "miramaremireya@gmail.com", birthDate: Calendar.current.date(from: DateComponents(year: 1985, month: 4))),
-                       Student(name: "Maria",   email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1986, month: 11))),
-                       Student(name: "Juan",    email: "colomboml@gmail.com",      birthDate: Calendar.current.date(from: DateComponents(year: 1986, month: 11))),
-                       Student(name: "Lorenzo", email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1988, month: 1))),
-                       Student(name: "Laura",   email: "gonzalezl@gmail.com",      birthDate: Calendar.current.date(from: DateComponents(year: 1989, month: 2))),
-                       Student(name: "Pablo",   email: "carreñolau@gmail.com",     birthDate: Calendar.current.date(from: DateComponents(year: 1983, month: 3)))]
+let defaultStudents = [Student(name: "Paco",    email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1984, month: 7)), avatar: "img_student_2"),
+                       Student(name: "Mireya",  email: "miramaremireya@gmail.com", birthDate: Calendar.current.date(from: DateComponents(year: 1985, month: 4)), avatar: "img_student_1"),
+                       Student(name: "Maria",   email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1986, month: 11)), avatar: "img_student_4"),
+                       Student(name: "Juan",    email: "colomboml@gmail.com",      birthDate: Calendar.current.date(from: DateComponents(year: 1986, month: 11)), avatar: "img_student_3"),
+                       Student(name: "Lorenzo", email: "colomboamalio@gmail.com",  birthDate: Calendar.current.date(from: DateComponents(year: 1988, month: 1)), avatar: "img_student_6"),
+                       Student(name: "Laura",   email: "gonzalezl@gmail.com",      birthDate: Calendar.current.date(from: DateComponents(year: 1989, month: 2)),avatar: "img_student_5"),
+                       Student(name: "Pablo",   email: "carreñolau@gmail.com",     birthDate: Calendar.current.date(from: DateComponents(year: 1983, month: 3)), avatar: "img_student_7")]
 
 let defaultTeachers = [Teacher(name: "Monica",  email: "monicalopez@gmail.com", type: .extern),
                        Teacher(name: "david",   email: "jorgedavid@gmail.com",  type: .intern),

@@ -29,7 +29,7 @@ class StudentViewCell: UITableViewCell {
     
     
     func configureCell(student: Student) {
-        //TODO: add image student
+        mImage.image = UIImage(named: student.avatar ?? "")
         mLabelName.text = student.name
         mLabelMail.text = student.email
     }

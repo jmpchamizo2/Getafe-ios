@@ -40,16 +40,16 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="UJo-1h-f9l">
-                                                                    <rect key="frame" x="162" y="8.6666666666666643" width="220" height="98.666666666666686"/>
+                                                                    <rect key="frame" x="162" y="10" width="220" height="96"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bau-79-mRt">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="220" height="38.333333333333336"/>
-                                                                            <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="220" height="37"/>
+                                                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="31"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op6-Ad-1d2">
-                                                                            <rect key="frame" x="0.0" y="60.333333333333329" width="220" height="38.333333333333329"/>
+                                                                            <rect key="frame" x="0.0" y="59" width="220" height="37"/>
                                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                             <nil key="textColor"/>
                                                                             <nil key="highlightedColor"/>
@@ -63,6 +63,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="trailing" secondItem="Fh6-xe-8s7" secondAttribute="trailing" constant="8" id="2da-qi-5Pd"/>
                                                         <constraint firstItem="Fh6-xe-8s7" firstAttribute="leading" secondItem="8Za-N0-rch" secondAttribute="leading" constant="8" id="LUr-G8-ipd"/>
+                                                        <constraint firstAttribute="height" constant="116" id="YxI-sd-B4D"/>
                                                         <constraint firstItem="Fh6-xe-8s7" firstAttribute="top" secondItem="8Za-N0-rch" secondAttribute="top" id="drb-9m-CYf"/>
                                                         <constraint firstAttribute="bottom" secondItem="Fh6-xe-8s7" secondAttribute="bottom" id="eYM-2t-b0c"/>
                                                     </constraints>

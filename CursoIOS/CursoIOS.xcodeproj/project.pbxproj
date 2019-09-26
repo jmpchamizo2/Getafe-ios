@@ -13,6 +13,8 @@
 		D993D62B2333FF76006F23A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D993D62A2333FF76006F23A1 /* ViewController.swift */; };
 		D993D62E2333FF76006F23A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D993D62C2333FF76006F23A1 /* Main.storyboard */; };
 		D993D6332333FF77006F23A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D993D6312333FF77006F23A1 /* LaunchScreen.storyboard */; };
+		D9A9D0A0233D074100DBEEA9 /* TeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9D09F233D074100DBEEA9 /* TeachersViewController.swift */; };
+		D9A9D0A2233D083200DBEEA9 /* TeacherViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9A9D0A1233D083200DBEEA9 /* TeacherViewCell.swift */; };
 		D9AC05D5233915AC00DB7913 /* DefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC05D4233915AC00DB7913 /* DefaultData.swift */; };
 		D9AC05D7233946C100DB7913 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9AC05D6233946C000DB7913 /* Assets.xcassets */; };
 		D9ECE55923353530001996C3 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9ECE55823353530001996C3 /* Student.swift */; };
@@ -30,6 +32,8 @@
 		D993D6322333FF77006F23A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D993D6342333FF77006F23A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D993D63A23340615006F23A1 /* CursoIOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CursoIOS.entitlements; sourceTree = "<group>"; };
+		D9A9D09F233D074100DBEEA9 /* TeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeachersViewController.swift; sourceTree = "<group>"; };
+		D9A9D0A1233D083200DBEEA9 /* TeacherViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherViewCell.swift; sourceTree = "<group>"; };
 		D9AC05D4233915AC00DB7913 /* DefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultData.swift; sourceTree = "<group>"; };
 		D9AC05D6233946C000DB7913 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9ECE55823353530001996C3 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				D982C5C0233BD5DC00605CB7 /* StudentViewCell.swift */,
 				D993D62A2333FF76006F23A1 /* ViewController.swift */,
 				D982C5BE233BB14600605CB7 /* StudentsViewController.swift */,
+				D9A9D09F233D074100DBEEA9 /* TeachersViewController.swift */,
+				D9A9D0A1233D083200DBEEA9 /* TeacherViewCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -233,10 +239,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9ECE55B2335471E001996C3 /* Teacher.swift in Sources */,
+				D9A9D0A2233D083200DBEEA9 /* TeacherViewCell.swift in Sources */,
 				D9ECE55D2335476F001996C3 /* Subject.swift in Sources */,
 				D993D62B2333FF76006F23A1 /* ViewController.swift in Sources */,
 				D9AC05D5233915AC00DB7913 /* DefaultData.swift in Sources */,
 				D9ECE55923353530001996C3 /* Student.swift in Sources */,
+				D9A9D0A0233D074100DBEEA9 /* TeachersViewController.swift in Sources */,
 				D982C5C1233BD5DC00605CB7 /* StudentViewCell.swift in Sources */,
 				D982C5BF233BB14600605CB7 /* StudentsViewController.swift in Sources */,
 				D993D6292333FF76006F23A1 /* AppDelegate.swift in Sources */,

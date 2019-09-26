@@ -58,7 +58,7 @@ class Teacher: Hashable, CustomStringConvertible{
         self.name = name
         self.email = email
         self.type = type
-         self.avatar = avatar
+        self.avatar = avatar
         
         
     }
